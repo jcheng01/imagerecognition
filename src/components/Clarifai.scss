@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Open+Sans:wght@300;400;500;700&display=swap');
+
+P{  
+    font-family: 'Open Sans';
+    font-weight: medium;
+    text-align: center;
+    font-size: clamp(.75rem, .75vw + .5rem, 2rem);
+    margin: 20px;
+ 
+  
+}
+.body{
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.colone{
+    position: relative;
+    top: 20%;
+   
+}
+.coltwo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    position: relative;
+    top: 20%;
+    font-size: 1rem;
+    word-spacing: 2;
+    font-weight: bold;
+    
+}
+
+.data{
+    background: linear-gradient(89deg, #15F4EE 0%, #004EEB 100%);
+    padding: 1rem;
+    height: max(5vw, 500px);
+}
+#unsplashedImage{
+    border: solid 5px white;
+    border-radius: .5rem;
+    width: 250px;
+    object-fit: cover;
+    transition-duration: .5s;
+    &:hover{
+        scale: 1.1;
+    }
+}
+

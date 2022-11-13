@@ -1,0 +1,20 @@
+button{
+    color: black;
+    width: max(10vw, 5rem);
+    background-color: white;
+    border: none;
+    border-radius: .5rem;
+    padding: 1rem;
+    cursor: pointer;
+    transition-duration: .5s;
+    &:hover{
+        background-color: #bebebe;
+        transform: scale(1.1);
+    }
+}
+
+.btn{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 2rem;
+}
