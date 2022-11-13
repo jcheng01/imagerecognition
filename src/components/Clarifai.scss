@@ -1,13 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Open+Sans:wght@300;400;500;700&display=swap');
 
+@media (max-width: 499px) {
+   .body{
+    display: flex;
+    flex-direction: column;
+
+   }
+   .coltwo{
+       display: flex;
+       flex-direction: column;
+   }
+}
+
 P{  
     font-family: 'Open Sans';
     font-weight: medium;
     text-align: center;
     font-size: clamp(.75rem, .75vw + .5rem, 2rem);
     margin: 20px;
- 
-  
 }
 .body{
     display: grid;
@@ -40,7 +50,7 @@ P{
 #unsplashedImage{
     border: solid 5px white;
     border-radius: .5rem;
-    width: 250px;
+    width: max(10vw, 200px);
     object-fit: cover;
     transition-duration: .5s;
     &:hover{
