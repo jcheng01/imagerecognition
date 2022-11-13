@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/imagerecognition/static/css/main.c9088a4f.css",
+    "main.js": "/imagerecognition/static/js/main.fb0e8b27.js",
+    "index.html": "/imagerecognition/index.html",
+    "main.c9088a4f.css.map": "/imagerecognition/static/css/main.c9088a4f.css.map",
+    "main.fb0e8b27.js.map": "/imagerecognition/static/js/main.fb0e8b27.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9088a4f.css",
+    "static/js/main.fb0e8b27.js"
+  ]
+}
