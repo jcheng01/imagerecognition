@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Buttons from "./Buttons/Buttons";
-import Logo from "./logofolder/Logo";
+import Buttons from "../Buttons/Buttons";
+import Logo from "../logofolder/Logo";
 import "./Clarifai.scss"
 
 export default function Ai(props) {
