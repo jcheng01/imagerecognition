@@ -3,7 +3,6 @@ import "./Buttons.scss"
 import { FcAddImage } from 'react-icons/fc'
 import { GiBrain } from 'react-icons/gi'
 
-
 export default function Buttons(props) {
     return (
         <div>
