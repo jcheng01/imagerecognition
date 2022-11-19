@@ -2,6 +2,8 @@ import { useState } from "react";
 import Buttons from "../Buttons/Buttons";
 import Logo from "../logofolder/Logo";
 import "./Clarifai.scss"
+// import { BsFillCheckSquareFill } from 'react-icons/bs'
+
 
 export default function Ai(props) {
     const MODEL_ID = 'general-image-recognition';
@@ -55,6 +57,7 @@ export default function Ai(props) {
                     <img id='unsplashedImage' alt="load img" src={IMAGE_URL} />
                 </div>
                 <div className="data">
+                    {/* <BsFillCheckSquareFill color="brightgreen" /> */}
                     {imgdata.map(record => {
                         return (
                             <div>

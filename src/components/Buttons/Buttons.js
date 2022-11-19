@@ -7,7 +7,7 @@ export default function Buttons(props) {
     return (
         <div>
             <p>
-                This Magic App will detect interpret pictures using machine learning.
+                This Magic brain will interpret the pictures using machine learning.
                 <br></br>
                 Give it a try.
             </p>
