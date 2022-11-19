@@ -58,7 +58,7 @@ export default function Ai(props) {
                 </div>
                 <div className="data">
                     {/* <BsFillCheckSquareFill color="brightgreen" /> */}
-                    {imgdata.map(record => {
+                    {imgdata.map((record) => {
                         return (
                             <div>
                                 {(record.value * 100).toFixed(1) + "%"}

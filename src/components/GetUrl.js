@@ -10,9 +10,7 @@ export default function GetUrl() {
         const response = await axios.get(endpoint)
         console.log(response.data.urls.small);
         const url = response.data.urls.small;
-
         setUrl(url)
-
         await (function (error) {
             console.log("Error: " + error);
         })
